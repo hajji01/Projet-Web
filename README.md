@@ -1,3 +1,4 @@
+
 ## Introduction
 
 Il s'agit de concevoir et développer une application disponible en ligne et qui permet l’affichage d’un showroom à l’attention d’usagers. Le Cahier des Charges, objet de ce document, décrit l'ensemble des exigences concernant l'étude et la réalisation d'un showroom en ligne.
@@ -62,6 +63,7 @@ actualités si nécessaire.
 #### Visualiser une sélection et ses éléments associés
 Une fois un élément créé et activé, un usager de la structure (utilisateur non connecté) peut visualiser, à l’aide d’un équipement mobile et d’un navigateur Web, la(les) page(s) affichant la galerie de tous les éléments ajoutés ou les éléments associés à une sélection particulière. Un élément peut être associé, ou non, à des liens additionnels à afficher (sous forme d’hyperliens).
 
+<<<<<<< HEAD
 ## Modèle de données
 #### Dictionnaire des données
 * Compte utilisateur : Pseudo + Mot de passe
@@ -83,3 +85,18 @@ Une fois un élément créé et activé, un usager de la structure (utilisateur 
 * Une sélection est créée par un et un seul compte utilisateur.
 * Un élément peut être associé à 0 ou n lien(s) au maximum.
 * Un lien peut être associé à au minimum 1 et au maximum 1 seul élément.
+=======
+Présentation : Numéro + Nom de la structure + Adresse + Adresse e-mail + Numéro de téléphone + Horaires d’ouverture + Texte de bienvenue
+5.2 Multiplicités
+Un profil utilisateur est associé à un et un seul compte utilisateur.
+Un compte utilisateur correspond à un et un seul profil.
+Un profil peut publier de 0 à n actualité(s) via son compte utilisateur.
+Une actualité est postée par un et un seul profil via son compte utilisateur.
+Un seul profil peut renseigner la présentation de la structure via son compte utilisateur.
+La présentation de la structure est remplie par un et un seul profil via son compte utilisateur. Une sélection rassemble au minimum 0 et au maximum n élément(s).
+Un élément peut être mentionné dans au minimum 0 et au maximum n sélection(s).
+Un profil peut ajouter de 0 à n sélection(s) via son compte utilisateur.
+Une sélection est créée par un et un seul compte utilisateur.
+Un élément peut être associé à 0 ou n lien(s) au maximum.
+Un lien peut être associé à au minimum 1 et au maximum 1 seul élément.
+
