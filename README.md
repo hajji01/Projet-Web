@@ -1,4 +1,4 @@
-1 Introduction
+**Introduction**
 
 Il s'agit de concevoir et développer une application disponible en ligne et qui permet l’affichage d’un showroom à l’attention d’usagers. Le Cahier des Charges, objet de ce document, décrit l'ensemble des exigences concernant l'étude et la réalisation d'un showroom en ligne.
 2 Description générale
